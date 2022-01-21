@@ -32,7 +32,7 @@ inquirer
     // <div class="title">${location}<div><br>
     // <div class="title">${linkedInUser}<div>`;
 
-    let user = `<!DOCTYPE html>
+    let docBody = `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -54,7 +54,7 @@ inquirer
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 </html>`;
 
-    fs.writeFile("index2.html", user, (err) =>
+    fs.writeFile("index2.html", docBody, (err) =>
       err ? console.error(err) : console.log("Success!")
     );
   });
