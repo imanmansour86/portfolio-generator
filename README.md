@@ -6,13 +6,13 @@ This application prompts the users for name, location and LinkedIn. The HTML pag
 
 ## Installation
 
-- Install npm
+- Install npm: Open terminal and navigate to project directory. Type:
 
   `$ npm install`
 
-- Open Terminal, navigate to project directory:
+- Run the file in terminal:
 
-  Run "node script.js" and answer the questions
+  `node script.js`
 
 - Open generated index.html file in browser
 
