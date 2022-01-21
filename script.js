@@ -24,13 +24,8 @@ inquirer
     console.log(response);
 
     let username = response.username;
-    // $("#name").text(username);
     let location = response.location;
     let linkedInUser = response.linkedIn;
-
-    // let user = `<link rel="stylesheet" href="style.css"/><div class="title">My username is ${username}<div><br>
-    // <div class="title">${location}<div><br>
-    // <div class="title">${linkedInUser}<div>`;
 
     let docBody = `<!DOCTYPE html>
 <html lang="en">
@@ -54,7 +49,7 @@ inquirer
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 </html>`;
 
-    fs.writeFile("index2.html", docBody, (err) =>
+    fs.writeFile("index.html", docBody, (err) =>
       err ? console.error(err) : console.log("Success!")
     );
   });
