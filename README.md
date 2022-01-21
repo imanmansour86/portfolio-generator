@@ -6,9 +6,9 @@ This application prompts the users for name, location and LinkedIn. The HTML pag
 
 ## Installation
 
-- Install npm inquirer
+- Install npm
 
-  `$ npm install inquirer`
+  `$ npm install`
 
 - Open Terminal, navigate to project directory:
 
